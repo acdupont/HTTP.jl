@@ -25,7 +25,8 @@ using JSON
               "aws4.jl",
               "insert_layers.jl",
               "mwe.jl"
-              "multipart.jl]
+              "multipart.jl",
+              "parsemultipart.jl"]
         println("Running $f tests...")
         include(f)
     end
